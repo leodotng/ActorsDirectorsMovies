@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div>
+		<div>
+			<!-- <form class="" action="/new" method="post">
+      <!== <button type="submit" name="button" class="uk-button uk-button-primary uk-button-large">post to /new</button>
+    </form> -->
+		</div><br>
+		<!-- ADD MOVIE -->
+		<div class="uk-card uk-card-default uk-card-body uk-width-1-2@m wide">
+			<h2>Add a Movie</h2>
+			<form>
+				<div class="uk-margin">
+					<input class="uk-input uk-form-width-medium uk-form-large" placeholder="Movie Name" type="text"> <input class="uk-input uk-form-width-medium uk-form-large" placeholder="Actor ID" type="text"> <input class="uk-input uk-form-width-medium uk-form-large" placeholder="Director ID" type="text">
+					<div class="uk-margin">
+						<label class="uk-form-label" for="form-stacked-select">Select</label>
+						<div class="uk-form-controls">
+							<select class="uk-select" id="form-stacked-select">
+								<option value="{{actor_id}}">
+									{{actor_id}}
+								</option>
+							</select>
+						</div>
+					</div>
+					<form action="/new/1?_method=PUT" class="" method="post">
+						<button class="uk-button uk-button-primary uk-button-large" name="button" type="submit">put to /new/1</button>
+					</form>
+				</div>
+			</form>
+		</div>
+		<div></div>
+	</div>
+</body>
+</html>

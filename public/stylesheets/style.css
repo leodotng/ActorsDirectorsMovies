@@ -1,0 +1,40 @@
+html {
+  padding: 60px;
+ font-family: 'Roboto', sans-serif;
+ /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+a {
+  color: #00B7FF;
+}
+
+.hollywood {
+    background-image: url("/images/hollywood.png");
+    background-color: #cccccc;
+    max-width: 100vw;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.holly {
+    background-image: url("/images/hollywood.jpg");
+    background-color: #cccccc;
+    max-width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+.wide {
+width: 100vw;
+margin-bottom: auto;
+}
